@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Workshop Coding HTML/CSS</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/solarized.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/solarized-light.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-transition="default">
+          <h2>
+            <span style="color:#67abd8">W</span>eb overview
+          </h2>
+          <br><br>
+          <p>
+            Harkaoui Badreddine - CEO Benatna
+          </p>
+        </section>
+
+        <section data-transition="default">
+          <section>
+            <h1>
+              <span style="color: #67abd8">H</span>OW DOES A WEBSITE WORK?
+            </h1>
+          </section>
+          <section>
+            <img src="img/client.png" alt="client">
+          </section>
+          <section>
+            <img src="img/client-with-browser.png" alt="client-with-browser">
+          </section>
+          <section>
+            <img src="img/client-request.png" alt="client-request">
+          </section>
+          <section>
+            <img src="img/client-response.png" alt="client-response" style="height: 650px">
+          </section>
+          <section>
+            <img src="img/client-full-response.png" alt="client-full-response" style="height: 650px">
+          </section>
+          <section>
+            <img src="img/client-server-facebook.png" alt="client-server-facebook" style="height: 650px">
+          </section>
+          <section>
+            <h2>
+              <span style="color: #67abd8">F</span>FACEBOOK STATIC-STYLE
+            </h2>
+            <p><strong>1 BILLION USERS = 1 BILLION PROFILE PAGES?</strong></p>
+          </section>
+          <section>
+            <h2>
+              <span style="color: #67abd8">F</span>ACEBOOK DYNAMIC-STYLE
+            </h2>
+            <p><strong>OF COURSE NOT</strong></p>
+            <p><strong>1 BILLION USERS = 1 PROFILE TEMPLATE</strong></p>
+          </section>
+          <section>
+            <img src="img/client-server-pagebuild.png" alt="client-server-pagebuild">
+          </section>
+          <section>
+            <img src="img/client-server-database.png" alt="client-server-database">
+          </section>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
